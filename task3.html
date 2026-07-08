@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Form</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        .container{
+            width:700px;
+            margin:20px auto;
+            background:white;
+            border:2px solid #000;
+        }
+
+        h1{
+            text-align:center;
+            margin:15px;
+            font-size:32px;
+        }
+
+        .heading{
+            background:#0b4d4d;
+            color:white;
+            text-align:center;
+            font-size:30px;
+            padding:10px;
+            font-weight:bold;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        td{
+            border:1px solid gray;
+            padding:10px;
+            vertical-align:top;
+        }
+
+        .label{
+            width:180px;
+            text-align:right;
+            font-weight:bold;
+            font-size:18px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select,
+        textarea{
+            width:95%;
+            padding:8px;
+            font-size:15px;
+        }
+
+        textarea{
+            height:120px;
+            resize:none;
+        }
+
+        .note{
+            font-size:12px;
+            color:gray;
+        }
+
+        .buttons{
+            text-align:center;
+            padding:15px;
+        }
+
+        button{
+            padding:10px 20px;
+            font-size:16px;
+            margin:5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>REPORT FORM</h1>
+
+<div class="heading">
+INFORMATION TABLE
+</div>
+
+<form>
+
+<table>
+
+<tr>
+<td class="label">NAME</td>
+<td>
+<input type="text" placeholder="ENTER YOUR FULL NAME">
+</td>
+</tr>
+
+<tr>
+<td class="label">EMAIL</td>
+<td>
+<input type="email" placeholder="ENTER AN INTERNET CONTACT ADDRESS">
+</td>
+</tr>
+
+<tr>
+<td class="label">PASSWORD</td>
+<td>
+<input type="password" placeholder="ENTER A CODE TO IDENTIFY YOU">
+</td>
+</tr>
+
+<tr>
+<td class="label">ADDRESS</td>
+<td>
+<input type="text" placeholder="COMPLETE ADDRESS">
+</td>
+</tr>
+
+<tr>
+<td class="label">COUNTRY</td>
+<td>
+<select>
+<option>Pakistan</option>
+<option>India</option>
+<option>Bangladesh</option>
+<option>China</option>
+<option>USA</option>
+<option>UK</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="label">GENDER</td>
+<td>
+<input type="radio" name="gender"> Male
+&nbsp;&nbsp;
+<input type="radio" name="gender"> Female
+</td>
+</tr>
+
+<tr>
+<td class="label">HOBBIES</td>
+<td>
+<input type="checkbox"> Reading <br><br>
+
+<input type="checkbox"> Listening Music <br><br>
+
+<input type="checkbox"> Gardening <br><br>
+
+<input type="checkbox"> Swimming <br><br>
+
+<input type="checkbox"> Athletics <br><br>
+
+<span class="note">Check all that apply</span>
+</td>
+</tr>
+
+<tr>
+<td class="label">YOUR WEB SITE</td>
+<td>
+<input type="text" placeholder="http://">
+<br>
+<span class="note">
+Provide your website URL if it exists (Not Necessary)
+</span>
+</td>
+</tr>
+
+<tr>
+<td class="label">OTHER INFORMATION ABOUT YOU</td>
+<td>
+<textarea placeholder="WRITE ANY OTHER INFORMATION THAT IS NOT PROVIDED ABOVE"></textarea>
+</td>
+</tr>
+
+</table>
+
+<div class="buttons">
+<button type="submit">SEND IN MY REPORT</button>
+<button type="reset">ERASE REPORT FORM</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
