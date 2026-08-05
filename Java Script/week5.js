@@ -19,20 +19,25 @@
 // }
 
 
-let allclass = document.querySelectorAll(".box");
+// let allclass = document.querySelectorAll(".box");
 
-let button = document.querySelector(".btn");
+// let button = document.querySelector(".btn");
 
-button.addEventListener("click",function(){
+// button.addEventListener("click",function(){
 
-    for (let box of allclass){
+//     for (let box of allclass){
 
-    box.innerHTML += "i am thanos";
+//     box.innerHTML += "i am thanos";
 
-    box.style.margin = "200px";
-    box.style.backgroundColor = "black";
-    box.style.display = "flex";
-    }
+//     box.style.margin = "200px";
+//     box.style.backgroundColor = "black";
+//     box.style.display = "flex";
+//     }
 
-})
+// })
 
+Array = [2,3,4,5,6,7,8,9];
+for(let i = 0; i <= 7; i++){
+    console.log(Array [i])
+
+}
